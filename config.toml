@@ -1,0 +1,36 @@
+theme = "lighter_purple"
+
+[editor]
+auto-completion = false
+completion-replace = true
+
+[editor.auto-save]
+focus-lost = true
+
+[editor.indent-guides]
+render = true
+
+[editor.cursor-shape]
+insert = "bar"
+select = "underline"
+
+[editor.soft-wrap]
+enable = true
+
+[editor.lsp]
+auto-signature-help = false
+
+[keys.normal]
+C-left = "jump_view_left"
+C-right = "jump_view_right"
+C-up = "jump_view_up"
+C-down = "jump_view_down"
+S-down = '@x"ld"lp;' # Macro: Shift line down, using register "l".
+S-up = '@x"ld<up>"lP;' # Macro: Shift line up, using register "l".
+
+[keys.insert]
+C-left = "jump_view_left"
+C-right = "jump_view_right"
+C-up = "jump_view_up"
+C-down = "jump_view_down"
+A-h = "signature_help"

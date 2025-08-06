@@ -1,0 +1,5 @@
+inherits = "base16_default"
+
+keyword = { fg = "light-magenta"}
+namespace = { fg = "cyan"}
+function = { fg = "light-blue" }
