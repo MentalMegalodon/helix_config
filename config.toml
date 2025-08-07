@@ -28,6 +28,7 @@ C-down = "jump_view_down"
 S-down = '@x"ld"lp;' # Macro: Shift line down, using register "l".
 S-up = '@x"ld<up>"lP;' # Macro: Shift line up, using register "l".
 W = "@miw" # Macro: Select entire word.
+C-x = ":reset-diff-change" # Undo git change on current hunk.
 
 [keys.insert]
 C-left = "jump_view_left"
