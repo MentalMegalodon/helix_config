@@ -20,6 +20,9 @@ enable = true
 [editor.lsp]
 auto-signature-help = false
 
+# [editor.inline-diagnostics]
+# cursor-line = "error"
+
 [keys.normal]
 C-left = "jump_view_left"
 C-right = "jump_view_right"

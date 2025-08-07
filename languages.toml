@@ -10,3 +10,6 @@ args = ["server"]
 [language.formatter]
 command = "ruff"
 args = ["format", "-"]
+
+[language-server.pylsp.config.pylsp.plugins]
+pycodestyle.enabled = false
