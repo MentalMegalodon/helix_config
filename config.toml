@@ -27,6 +27,7 @@ C-up = "jump_view_up"
 C-down = "jump_view_down"
 S-down = '@x"ld"lp;' # Macro: Shift line down, using register "l".
 S-up = '@x"ld<up>"lP;' # Macro: Shift line up, using register "l".
+W = "@miw" # Macro: Select entire word.
 
 [keys.insert]
 C-left = "jump_view_left"
