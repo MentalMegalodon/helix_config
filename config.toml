@@ -3,9 +3,12 @@ theme = "lighter_purple"
 [editor]
 auto-completion = false
 completion-replace = true
+cursorline = true
 
 [editor.auto-save]
 focus-lost = true
+# This line will auto-save after 3 seconds of inactivity.
+# after-delay.enable = true
 
 [editor.indent-guides]
 render = true
@@ -35,6 +38,7 @@ C-x = "completion"
 # Scroll viewport one line without moving cursor.
 j = "scroll_up" 
 k = "scroll_down"
+A-k = "hover"
 
 [keys.insert]
 C-left = "jump_view_left"
@@ -42,4 +46,5 @@ C-right = "jump_view_right"
 C-up = "jump_view_up"
 C-down = "jump_view_down"
 A-h = "signature_help"
+A-k = "hover"
 C-x = "completion"
