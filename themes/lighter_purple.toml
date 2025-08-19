@@ -4,6 +4,6 @@ keyword = { fg = "light-magenta"}
 namespace = { fg = "cyan"}
 function = { fg = "light-blue" }
 
-"ui.cursorline.primary" = { bg = "blue" }
-"ui.selection" = { fg = "black", bg = "light-blue" }
-"ui.selection.primary" = { fg = "white", bg = "light-blue" }
+# "ui.cursorline.primary" = { bg = "blue" }
+# "ui.selection" = { fg = "black", bg = "light-blue" }
+# "ui.selection.primary" = { fg = "white", bg = "light-blue" }

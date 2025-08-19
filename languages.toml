@@ -15,3 +15,4 @@ args = ["format", "-"]
 pycodestyle.enabled = false
 pyflakes.enabled = false
 autopep8.enabled = false
+mccabe.enabled = false
