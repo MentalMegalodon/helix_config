@@ -4,6 +4,9 @@ theme = "lighter_purple"
 auto-completion = false
 completion-replace = true
 cursorline = true
+scrolloff = 12
+continue-comments = false
+true-color = true
 
 [editor.auto-save]
 focus-lost = true
